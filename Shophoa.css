@@ -1,0 +1,407 @@
+.page{
+    width: 100%;
+    height: 2000px;
+    background: white;
+    margin: 0 auto; 
+}
+.page .header{
+    width: 100%;
+    height:185px;
+    background:#539414; 
+
+}
+.page .header .header-top{
+    width: 100%;
+    height:45px;
+    background:green; 
+   
+}
+.page .header .header-top .top{
+    width: 95%;
+    height:45px;
+     margin: 0 auto;
+
+}
+.page .header .header-center{
+    width: 100%;
+    height:70px;   
+}
+.page .header .header-center .center{
+    width: 95%;
+    height:100%;  
+    margin: 0 auto; 
+}
+.page .header .header-center .center .logo{
+    float: left;
+    width: 30%;
+    height:100%;   
+}
+.page .header .header-center .center .timkiem{
+    float: left;
+    width: 49%;
+    height:100%;   
+}
+.header-center .center .timkiem .tkiem{
+    float: left;
+    width: 90%;
+    height:70%;
+    margin: 0 auto;
+    background: green;
+    margin-top: 7px;   
+}
+.timkiem .tkiem .form{
+    width: 100%;
+    height: 100%; 
+}
+.timkiem .tkiem .form .all{
+    float: left;
+    width: 15%;
+    height: 100%;
+    font-size: 15px;
+}
+.header-center .center .goi{
+    float: left;
+    width: 20%;
+    height: 90%;
+}
+
+.top .ul li{
+    float: left;
+    font-family: "roboto" sans-serif;
+    font-size: 1em;
+    list-style: none;
+    margin: 0 7px;
+    margin-top: 14px;
+
+
+}
+.top .ul li a{
+    color: white;
+}
+.top .ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.page .header .header-botom{
+   width: 100%;
+    height: 70px;
+    
+}
+.page .header .header-botom .botom{
+   width: 95%;
+    height: 70px;
+     
+     margin: 0 auto;
+}
+.header-botom .botom .danhmuc{
+    float: left;
+   width: 30%;
+    height: 85%;
+   
+     
+    
+}
+.header-botom .botom .danhmuc .ul{
+    float: left;
+   width: 86%;
+    margin-left: 49px;
+    height: 100%;
+    background: green;
+}
+.botom .danhmuc .ul .icon{
+ margin: 20px 10px;
+ color: white;
+ font-size: 19px;
+ font-family: "Roboto Condensed", sans-serif;
+ margin-left: -30px;
+
+}
+.header-botom .botom .menu1{
+    float: left;
+    width: 64%;
+    height:60%;
+    
+    margin-top:10px;   
+}
+
+.header-botom .botom .menu1 .menu{
+
+    width: 89%;
+    height:100%;
+  
+      
+}
+
+.menu1 .menu li a{
+     font-family: "Roboto", sans-serif;
+     font-size: 1em;
+      color: white;
+      
+    }
+.menu1 .menu li a:hover{
+     font-family: "Roboto", sans-serif;
+     font-size: 1em;
+      color: white;
+      text-decoration: none;
+}
+.menu1 .menu li{
+    margin: 12px 14px;
+}
+.header-botom .botom .car{
+    float: left;
+    width: 5%;
+    height: 60%;
+    margin-top:10px; 
+    
+
+}
+.page .khung{
+    width: 100%;
+    height: 410px;
+    margin-top: 10px;
+    background: #e6ede8;
+   
+    }
+.page .khung .row{
+    width: 89%;
+    height: 390px;
+    
+    margin: 0 auto;
+
+    }
+
+.khung .row .row1{
+    width: 28%;
+    height: 390px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 5px;
+
+
+
+    }
+.khung .row .row2{
+    width: 45%;
+    height: 390px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+.khung .row .row2 .r1{
+    width: 100%;
+    height: 250px;
+    background: red;
+    margin: 0 auto;
+    float: left;
+    margin-bottom: 5px;
+    }
+    
+
+.khung .row .row2 .r1 img{
+    width: 100%;
+    height: 180px;
+
+}
+
+
+
+.khung .row .row2 .r2{
+    width: 49%;
+    height: 130px;
+    margin: 0 auto;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    }
+
+.khung .row .row2 .r3{
+    width: 48.8%;
+    height: 100px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    }
+
+
+
+
+.khung .row .row3{
+    width: 25%;
+    height: 390px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 5px;
+
+    }
+
+.page .trong{
+    width: 100%;
+    height: 10px;
+}
+h2{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #49860d;
+}
+h2 img{
+    width: 50px;
+    height: 40px;
+}
+.page .card{
+    width: 95%;
+    height: 350px;
+    margin: 0 auto;
+    
+}
+.page .card .col{
+    float: left;
+    width: 31.67%;
+    height: 170px;
+    
+    position: relative;
+    margin: 0px 5px 10px 5px;
+}
+.card .col .sale{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+    border-radius: 50%;
+   
+    background:#539414;
+   
+}
+.card .col .hoa{
+    float: left;
+    width: 30%;
+    height: 170px;
+    
+}
+.card .col .content{
+    float: left;
+    width: 70%;
+    height: 170px;
+  
+}
+.col .content p a{
+    color: #539414;
+    font-size: 17px;
+    text-decoration: none;
+}
+.page .section-content{
+    width: 95%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.page .section-content .col{
+    float: left;
+    width: 49.38%;
+    height: 200px;
+    margin-right:  5px;
+}
+.page .big{
+    width: 95%;
+    height: 2370px;
+    margin: 0 auto;
+   
+}
+.page .big .relative{
+    width: 100%;
+    height:790px;
+    background: #e8edeb;
+  
+}
+.page .big .relative .loaihoa1{
+    float: left;
+    width: 20%;
+    height:790px;
+   
+    margin-right: 5px;
+}
+.relative .loaihoa1 .directory{
+    width: 100%;
+    height: 280px;
+  background: white;
+    margin-top: 10px;
+}
+.page .big .happy{
+    width: 100%;
+    height:420px;
+  
+    margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+.page .big .relative .loaihoa2{
+    float: left;
+    width: 79.3%;
+    height:790px;
+    
+    margin-left: 5px;
+}
+.page .big .relative .loaihoa2 .small{
+    width: 100%;
+    height:730px;
+    
+    margin-top: 10px;
+}
+.loaihoa2 .small .col-inner{
+    float: left;
+    width: 24.11%;
+    height: 355px;
+    
+    margin: 0px 5px 5px 5px;
+}
+.loaihoa2 .small .col-inner .load{
+    width: 100%;
+    height: 225px;
+   
+}
+.loaihoa2 .small .col-inner .load .tron{
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+     position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.loaihoa2 .small .col-inner .nd{
+    width: 100%;
+    height: 130px;
+    
+   
+    
+}
+.small .col-inner .nd .chu{
+    width: 100%;
+    height: 65px;
+    
+}
+.small .col-inner .nd .tien{
+    width: 100%;
+    height: 65px;
+    
+
+
+
+
+
+
+
+
+
+
